@@ -1,12 +1,17 @@
-sudo pacman -S --needed git kitty i3 polybar feh rofi i3
+#!/bin/bash
+
+# install packages
+sudo pacman -S --needed git fish kitty i3 polybar feh rofi picom
+
+# change shell
 chsh -s /usr/bin/fish
-mkdir -p ~/.config/picom
-mkdir -p ~/.config/i3
-mkdir -p ~/.config/kitty
-mkdir -p ~/.config/polybar
-mkdir -p ~/.config/rofi
-cp ~/i3-wm-dotfiles/picom.conf ~/.config/picom/picom.conf
-cp ~/i3-wm-dotfiles/config ~/.config/i3/config
-cp ~/i3-wm-dotfiles/config.ini ~/.config/polybar/config.ini
-cp ~/i3-wm-dotfiles/config.rasi ~/.config/rofi/config.rasi
-cp ~/i3-wm-dotfiles/kitty.conf ~/.config/kitty/kitty.conf
+
+# create config folders
+mkdir -p ~/.config/{picom,i3,kitty,polybar,rofi}
+
+# copy configs
+cp picom.conf ~/.config/picom/picom.conf
+cp config ~/.config/i3/config
+cp config.ini ~/.config/polybar/config.ini
+cp config.rasi ~/.config/rofi/config.rasi
+cp kitty.conf ~/.config/kitty/kitty.conf
