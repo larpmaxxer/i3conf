@@ -1,4 +1,4 @@
-sudo pacman -S fish kitty
+sudo pacman -S --needed git kitty i3 polybar feh rofi i3
 chsh -s /usr/bin/fish
 mkdir -p ~/.config/picom
 mkdir -p ~/.config/i3
