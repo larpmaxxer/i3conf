@@ -1,4 +1,4 @@
-# i3-wm-dotfiles
+# blackframe
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fb0bc31d-916f-4c4e-8d52-7079f910b979" />
 
@@ -36,8 +36,8 @@ sudo pacman -S --needed git kitty i3 polybar feh rofi
 clone the repo and simply run the install script
 
 ```bash
-git clone https://github.com/larpmaxxer/i3-wm-dotfiles
-cd i3-wm-dotfiles
+git clone https://github.com/larpmaxxer/blackframe
+cd blackframe
 chmod +x install.sh
 ./install.sh
 ```
