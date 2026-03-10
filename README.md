@@ -1,7 +1,7 @@
 # blackframe
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fb0bc31d-916f-4c4e-8d52-7079f910b979" />
-
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7b505ddb-67ca-44b4-ae24-a46f71a08629" />
+(terminal apps used: neofetch, cava, cmatrix, tty-clock)
 
 my personal linux rice built around i3wm.  
 no bloated desktop environment nonsense.
