@@ -36,8 +36,8 @@ sudo pacman -S --needed git fish kitty i3 polybar feh rofi picom autotiling maim
 clone the repo and simply run the install script
 
 ```bash
-git clone https://github.com/larpmaxxer/blackframe
-cd blackframe
+git clone https://github.com/larpmaxxer/evergreen-i3.git
+cd evergreen-i3
 chmod +x install.sh
 ./install.sh
 ```
