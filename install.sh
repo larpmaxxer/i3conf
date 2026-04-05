@@ -10,11 +10,11 @@ sudo pacman -S --needed --noconfirm git fish kitty i3 polybar feh rofi picom aut
 
 mkdir -p ~/.config/{picom,i3,kitty,polybar,rofi}
 
-cp ~/blackframe/picom.conf ~/.config/picom/picom.conf
-cp ~/blackframe/config ~/.config/i3/config
-cp ~/blackframe/config.ini ~/.config/polybar/config.ini
-cp ~/blackframe/config.rasi ~/.config/rofi/config.rasi
-cp ~/blackframe/kitty.conf ~/.config/kitty/kitty.conf
+cp ~/i3conf/picom.conf ~/.config/picom/picom.conf
+cp ~/i3conf/config ~/.config/i3/config
+cp ~/i3conf/config.ini ~/.config/polybar/config.ini
+cp ~/i3conf/config.rasi ~/.config/rofi/config.rasi
+cp ~/i3conf/kitty.conf ~/.config/kitty/kitty.conf
 
 echo "changing shell to fish"
 echo
