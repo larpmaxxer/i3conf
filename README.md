@@ -1,4 +1,4 @@
-# evergreen-i3
+# i3conf
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fd98c6d9-7bf6-487a-98c1-0d5f719b6636" />
 
 (terminal apps used: neofetch, cava, cowsay, figlet)
