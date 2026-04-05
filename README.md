@@ -36,7 +36,7 @@ clone the repo and simply run the install script
 
 ```bash
 git clone https://github.com/larpmaxxer/i3conf.git
-cd evergreen-i3
+cd i3conf
 chmod +x install.sh
 ./install.sh
 ```
